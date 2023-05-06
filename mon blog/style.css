@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Bahiana&family=Bebas+Neue&family=Roboto&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+    font-family: roboto, arial;
+}
+
+/* header */
+header {
+	overflow: hidden;
+	top:0;
+	left:0px;
+	right:0px;
+	background-color:#Fdc1c5;
+	border-bottom: #ce999d solid;
+    position:sticky;
+	margin:auto;
+	width:auto;
+	font-size: 25px;
+	font-family: arcade;
+}
+
+
+nav {
+    padding: 6%;
+    display: flex;
+    align-items: right;
+}
+
+.element {
+    margin: 50px 10px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    align-items: right;
+    transition: transform 0.3s ease-out;
+}
+
+.element:hover{
+    transform: scale(1.5);
+}
+
+a:hover{
+    color: #ce999d;
+    text-decoration:underline;
+}
+
+.element ul {
+    padding: 100px;
+    align-items: center;
+}
+
+.logo-img {
+    display: block;
+    float: left;
+    width: 10%;
+    padding: 22px;
+
+}
+
+.logo-img:hover {
+    width: 11%;
+}
+
+/* corp */
+.logo-txt {
+    display: block;
+}
+
+
+a {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+h1 {
+    font-family: bebas neue, 'Courier New', Courier, monospace;
+    font-size: 50px;
+    text-align: center;
+    padding: 2%;
+}
+
+h3 {
+    font-family: bebas neue, 'Courier New', Courier, monospace;
+    font-size: 40px;
+    padding: 7px 50px;
+}
+
+p {
+    padding: 4px 25px;
+}
+
+span {
+    font-family: bebas neue, 'Courier New', Courier, monospace;
+    font-size: 70px;
+    text-align: center;
+}
+
+.news, .server-info {
+    padding-bottom: 40px;
+}
+
+footer {
+	background-color:#Fdc1c5;
+    border-top: #ce999d solid;
+    font-size: 22px;
+    padding: 30px;
+    color: white;
+}
+
+footer ul {
+    text-align: center;
+}
+
+i {
+    padding: 25px 5%;
+}
+
+i:hover {
+    color: 1px #ce999d solid;
+}
